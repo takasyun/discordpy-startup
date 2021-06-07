@@ -25,8 +25,7 @@ async def ping(ctx):
 
 bot.run(token)
 
-
-
+message.channel.send('テスト')
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
