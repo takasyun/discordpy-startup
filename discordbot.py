@@ -34,9 +34,9 @@ Hololive = {
         "常闇トワ",
         "https://yt3.ggpht.com/a/AATXAJxqyp7DhLSSrSYRc5HaLcq5QvJvRp3jDnxTeA=s288-c-k-c0xffffffff-no-rj-mo"
     ],
-    "UCa9Y57gfeY0Zro_noHRVrnw": [
-        "姫森ルーナ",
-        "https://yt3.ggpht.com/a/AATXAJzzirDjRJkofWVeoE6gVjodJ0VXaJhy4b_CLg=s288-c-k-c0xffffffff-no-rj-mo"
+    "UC1opHUrw8rvnsadT-iGp7Cg": [
+        "湊あくあ",
+        "https://yt3.ggpht.com/ytc/AAUvwngPGs1t6iJAT6hLWj7cBQcvJg2y_L9mzpy3lpxgqw=s88-c-k-c0x00ffffff-no-rj"
     ],
     "UC5CwaMl1eIgY8h02uZw7u8A": [
         "星町すいせい",
