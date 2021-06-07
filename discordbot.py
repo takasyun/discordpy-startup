@@ -45,7 +45,7 @@ Hololive = {
     "UCx1nAvtVDIsaGmCMSe8ofsQ": [
         "加藤純一",
         "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
-    ]
+    ],
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
 webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
