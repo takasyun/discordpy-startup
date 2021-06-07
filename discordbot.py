@@ -42,9 +42,9 @@ Hololive = {
         "星町すいせい",
         "https://yt3.ggpht.com/ytc/AAUvwnjdAl5rn3IjWzl55_0-skvKced7znPZRuPC5xLB=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCx1nAvtVDIsaGmCMSe8ofsQ": [
-        "加藤純一",
-        "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
+    "UC1DCedRgGHBdm81E1llLhOQ": [
+        "兎田ぺこら",
+        "https://yt3.ggpht.com/ytc/AAUvwnjvkyPGzOmEXZ34mEFPlwMKTbCDl1ZkQ_HkxY-O5Q=s88-c-k-c0x00ffffff-no-rj"
     ]
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
