@@ -26,9 +26,9 @@ async def ping(ctx):
 
 
 Hololive = {
-    "UCp6993wxpyDPHUpavwDFqgg": [
-        "ときのそら",
-        "https://yt3.ggpht.com/a/AATXAJzGvZJuJ92qM5WcfBcDZqPFSj_CGIEYp9VFmA=s288-c-k-c0xffffffff-no-rj-mo"
+    "UCx1nAvtVDIsaGmCMSe8ofsQ": [
+        "加藤純一",
+        "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
     ],
     "UC1uv2Oq6kNxgATlCiez59hw": [
         "常闇トワ",
@@ -154,7 +154,6 @@ async def main_discordbot(ctx):
         now_time = datetime.now() + timedelta(hours=9)
         if(((now_time.minute == 0) or (now_time.minute == 30) or (now_time.minute == 15) or (now_time.minute == 45))):
             get_information()
-            await ctx.send('bot_check!!!')
         check_schedule(now_time, broadcast_data)
         time.sleep(60)
 bot.run(token)
