@@ -152,7 +152,7 @@ async def main_discordbot(ctx):
     await ctx.send('start!!!')
     while True:
         now_time = datetime.now() + timedelta(hours=9)
-        if(((now_time.year > 2020) or ((now_time.year == 2020) and (now_time.month >= 6) and (now_time.day >= 22))) and (now_time.minute == 0) and (now_time.hour % 1 == 0)):
+        if(((now_time.minute == 0) or (now_time.minute == 30) or (now_time.minute == 15) or (now_time.minute == 45))):
             get_information()
             await ctx.send('bot_check!!!')
         check_schedule(now_time, broadcast_data)
