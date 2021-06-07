@@ -45,7 +45,7 @@ Hololive = {
     "UCx1nAvtVDIsaGmCMSe8ofsQ": [
         "加藤純一",
         "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
-    ],
+    ]
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
 webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
@@ -86,6 +86,7 @@ def post_to_discord(userId, videoId):
     requests.post(webhook_url_Hololive, main_content) #Discordに送信
     broadcast_data.pop(videoId)
 
+@bot.command()
 def get_information():
     tmp = copy.copy(broadcast_data)
     api_now = 0 #現在どのYouTube APIを使っているかを記録
