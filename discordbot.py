@@ -45,7 +45,7 @@ Hololive = {
     "UCx1nAvtVDIsaGmCMSe8ofsQ": [
         "加藤純一",
         "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
-    ],
+    ]
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
 webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
@@ -151,6 +151,8 @@ async def main_discordbot(ctx):
         if(((now_time.year > 2020) or ((now_time.year == 2020) and (now_time.month >= 6) and (now_time.day >= 22))) and (now_time.minute == 0) and (now_time.hour % 2 == 0)):
             get_information()
             await ctx.send('bot_check!!!')
+        await ctx.send('bot_check!!!')
+        get_information()
         check_schedule(now_time, broadcast_data)
         time.sleep(60)
 bot.run(token)
