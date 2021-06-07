@@ -143,4 +143,5 @@ while True:
     if(((now_time.year > 2020) or ((now_time.year == 2020) and (now_time.month >= 6) and (now_time.day >= 22))) and (now_time.minute == 0) and (now_time.hour % 2 == 0)):
         get_information()
     check_schedule(now_time, broadcast_data)
+    print("test")
     time.sleep(60)
