@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 import time
-#import requests
+import requests
 import json
 import copy
 from datetime import datetime, timedelta, timezone
