@@ -23,7 +23,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 
-bot.run(token)
+
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
@@ -152,3 +152,5 @@ async def main_discordbot(ctx):
         check_schedule(now_time, broadcast_data)
         await ctx.send('test!!!')
         time.sleep(60)
+
+bot.run(token)
