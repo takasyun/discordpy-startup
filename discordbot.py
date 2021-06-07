@@ -25,8 +25,6 @@ async def ping(ctx):
 
 bot.run(token)
 
-message.channel.send('テスト')
-
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
         "ときのそら",
@@ -144,10 +142,13 @@ def post_broadcast_schedule(userId, videoId, starttime):
 
 #2時間ごとにget_information()
 #1分ごとにcheck_schedule()
-while True:
-    now_time = datetime.now() + timedelta(hours=9)
-    if(((now_time.year > 2020) or ((now_time.year == 2020) and (now_time.month >= 6) and (now_time.day >= 22))) and (now_time.minute == 0) and (now_time.hour % 2 == 0)):
-        get_information()
-    check_schedule(now_time, broadcast_data)
-    message.channel.send('動作中')
-    time.sleep(60)
+# メッセージ受信時に動作する処理
+@bot.command()
+async def main_discordbot(ctx):
+    while True:
+        now_time = datetime.now() + timedelta(hours=9)
+        if(((now_time.year > 2020) or ((now_time.year == 2020) and (now_time.month >= 6) and (now_time.day >= 22))) and (now_time.minute == 0) and (now_time.hour % 2 == 0)):
+            get_information()
+        check_schedule(now_time, broadcast_data)
+        await ctx.send('test!!!')
+        time.sleep(60)
