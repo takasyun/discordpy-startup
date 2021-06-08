@@ -146,7 +146,7 @@ def post_broadcast_schedule(userId, videoId, starttime):
 
 #2時間ごとにget_information()
 #1分ごとにcheck_schedule()
-# メッセージ受信時に動作する処理
+# メッセージ受信時に動作する処理a
 @bot.command()
 async def main_discordbot(ctx):
     await ctx.send('start!!!')
