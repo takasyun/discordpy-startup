@@ -30,9 +30,9 @@ Hololive = {
         "加藤純一",
         "https://yt3.ggpht.com/ytc/AAUvwnhmkQKAZWonAFY4aNoq6dOwgfThDWTRfa2NXH6_DQ=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UC1uv2Oq6kNxgATlCiez59hw": [
-        "常闇トワ",
-        "https://yt3.ggpht.com/a/AATXAJxqyp7DhLSSrSYRc5HaLcq5QvJvRp3jDnxTeA=s288-c-k-c0xffffffff-no-rj-mo"
+    "UCt30jJgChL8qeT9VPadidSw": [
+        "しぐれうい ",
+        "https://yt3.ggpht.com/ytc/AAUvwniuo8k4PtT6z_AsalVyQbz6BUpTebJVt22kZDw8Ig=s88-c-k-c0x00ffffff-no-rj"
     ],
     "UC1opHUrw8rvnsadT-iGp7Cg": [
         "湊あくあ",
